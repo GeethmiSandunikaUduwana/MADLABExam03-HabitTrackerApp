@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dark theme customization -->
+    <!-- Theme.DailyBloom is defined in styles.xml and will automatically switch to dark mode -->
+</resources>

@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Face circle -->
+    <group>
+        <path
+            android:fillColor="#FF9800"
+            android:pathData="M24,4C13,4 4,13 4,24s9,20 20,20 20,-9 20,-20S35,4 24,4z" />
+    </group>
+
+    <!-- Left eye -->
+    <group>
+        <path
+            android:fillColor="#000000"
+            android:pathData="M16,18a3,3 0,1 1,0 6a3,3 0,1 1,0 -6z" />
+    </group>
+
+    <!-- Right eye -->
+    <group>
+        <path
+            android:fillColor="#000000"
+            android:pathData="M32,18a3,3 0,1 1,0 6a3,3 0,1 1,0 -6z" />
+    </group>
+
+    <!-- Mouth -->
+    <group>
+        <path
+            android:fillColor="#000000"
+            android:pathData="M14,26c2,-4 6,-6 10,-6s8,2 10,6z" />
+    </group>
+
+    <!-- Sparkle -->
+    <group>
+        <path
+            android:fillColor="#000000"
+            android:pathData="M24,34a2,2 0,1 1,0 4a2,2 0,1 1,0 -4z" />
+    </group>
+</vector>

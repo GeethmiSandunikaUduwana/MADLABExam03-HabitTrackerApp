@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120"
+    android:tint="@color/gray">
+
+    <!-- Card background -->
+    <group>
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="M30,20h60v80h-60z" />
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="M25,20h5v80h-5z" />
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="M90,20h5v80h-5z" />
+    </group>
+
+    <!-- Habit lines -->
+    <group>
+        <!-- First habit line -->
+        <path
+            android:fillColor="@color/gray"
+            android:pathData="M40,40h40v10h-40z" />
+
+        <!-- Second habit line -->
+        <path
+            android:fillColor="@color/gray"
+            android:pathData="M40,60h40v10h-40z" />
+
+        <!-- Third habit line -->
+        <path
+            android:fillColor="@color/gray"
+            android:pathData="M40,80h40v10h-40z" />
+    </group>
+
+</vector>
